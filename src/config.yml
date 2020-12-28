@@ -1,0 +1,62 @@
+message:
+  onlyPlayers:
+    - "&cConsole can't do that!"
+  enable:
+    - "&dDisco &7&l>> &aYou enabled disco armour."
+  disable:
+    - "&dDisco &7&l>> &cYou disabled disco armour."
+  reload:
+    - "&dDisco &7&l>> &bYou reloaded DiscoArmor."
+  nopermission:
+    - "&4You do not have access to that command."
+  wrongworld:
+    - "&dDisco &7&l>> &cYou can't do that in this world."
+  listWorldsHeader:
+    - "&dDisco &7&l>> &bAll worlds with disco armor enabled:"
+  listWorlds:
+    - "&dDisco &7&l>> &b%world%"
+    
+armor:
+  
+  # The display name of the armor:
+  name: "&dDisco Armor"
+  
+  # To enable the item's lore:
+  loreEnabled: false
+  
+  # The lore (description) of the armor:
+  lore:
+    - ""
+
+  # Time (In ticks) between color change:
+  ticks: 5
+
+  # Makes the player wearing the disco armor take damage as if they didn't have armor on:
+  aesthetic: true
+   
+  # Worlds that players can use the plugin in. (Use "*" to choose all worlds, otherwise choose world name e.g. "world_nether")
+  worlds:
+    - "*"
+   
+  # Disables the disco armor on death:
+  disable-on-death: false
+  
+  # See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Color.html for full list of colors.
+  colors:
+      - "AQUA"
+      - "BLACK"
+      - "BLUE"
+      - "FUCHSIA"
+      - "GRAY"
+      - "GREEN"
+      - "LIME"
+      - "MAROON"
+      - "NAVY"
+      - "OLIVE"
+      - "ORANGE"
+      - "PURPLE"
+      - "RED"
+      - "SILVER"
+      - "TEAL"
+      - "WHITE"
+      - "YELLOW"

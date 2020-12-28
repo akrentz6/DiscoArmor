@@ -1,0 +1,17 @@
+main: me.scruffyboy13.DiscoArmor.DiscoArmor
+name: DiscoArmor
+version: 2.0
+author: scruffyboy13
+api-version: 1.13
+
+commands:
+  Disco:
+    description: It's time to party!
+
+permissions:
+  discoarmor.disco:
+    default: true
+  discoarmor.list:
+    default: op
+  discoarmor.reload:
+    default: op
