@@ -3,6 +3,7 @@ package me.scruffyboy13.DiscoArmor.listeners;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 
@@ -11,7 +12,7 @@ import me.scruffyboy13.DiscoArmor.utils.ArmorUtils;
 
 public class PlayerDamageListener implements Listener {
 
-	@EventHandler
+	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
 	public void onPlayerDamage(EntityDamageEvent event) {
 		
 		if (event.getEntityType() != EntityType.PLAYER) {

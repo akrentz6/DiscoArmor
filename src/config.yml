@@ -1,5 +1,7 @@
 message:
-  onlyPlayers:
+  nopermission:
+    - "&4You don't permissions to do that!"
+  playersOnly:
     - "&cConsole can't do that!"
   enable:
     - "&dDisco &7&l>> &aYou enabled disco armour."
